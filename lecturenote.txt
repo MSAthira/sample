@@ -21,6 +21,9 @@ git commit -m "my initial git line of initialisation" [git commit -m "message"]
 to go from one commit id to other commit id :
 "git checkout <copy paste the id >"
 
+git --add all Or git add .
+ will add all files 
+
 branch , merge 
 
 1. we can commit only 2 files out of 4 file for indexing or cahce. in adding .
@@ -30,3 +33,21 @@ extention of each file neeed to be given, so it will be good when coding.
 
 "init" can be done in as many directories, it is only for that folder(directory) it will only work withn that directory
  user global setting --Config is used once so it is used once in your system 
+  first add file to git, then commit it , then see the log and see the status of your commits
+
+
+git branching
+
+git branch create a new branch 
+it is like this
+
+git branch feature
+
+
+
+why branch created ??
+if something is added or changed in that branch only get the chnage.
+
+the master stay there itself , all the other branches and "head will be moving "
+
+in that case we can add multiple branches 
