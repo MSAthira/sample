@@ -1,0 +1,32 @@
+
+initial commit, log, log,git checkout, status 
+
+for new project --'init' used
+
+creted a new project in destop
+
+init inside project _sam so a .git folder is made .it means it is hidden folder
+to create a file it is used "" touch command"
+touch hello.html
+
+in windows it is echo. hello.html( where hellom is the file name )
+
+ git add "file name" --> will add an file to git nad when checking it shows green color
+git status --> gives the status of the folder
+
+ to commit a file in to the git we need todo:
+git commit -m "my initial git line of initialisation" [git commit -m "message"]
+
+"git log "to see the commit id
+to go from one commit id to other commit id :
+"git checkout <copy paste the id >"
+
+branch , merge 
+
+1. we can commit only 2 files out of 4 file for indexing or cahce. in adding .
+because if 4 files have chages and 2 files need to edit in diffente area so, 2 files can add..> when commiting only this file is commited others are untracked
+extention of each file neeed to be given, so it will be good when coding.
+
+
+"init" can be done in as many directories, it is only for that folder(directory) it will only work withn that directory
+ user global setting --Config is used once so it is used once in your system 
